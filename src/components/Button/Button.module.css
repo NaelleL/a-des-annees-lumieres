@@ -1,0 +1,53 @@
+.btn{
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    transition: border-color 0.25s;
+    padding: 0.6em 1.2em;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.mainButton {
+    background-color: var(--main-yellow);
+    color: var(--main-black);
+}
+  
+.mainButton:active {
+  background-color: var(--yellow-hover);
+}
+
+.secondaryButton {
+    background-color: transparent;
+    color: var(--main-yellow);
+    border-color: var(--main-yellow);
+    border: 2px solid;
+
+  }
+  
+.secondaryButton:active {
+  color: var(--yellow-hover);
+}
+
+.backButton {
+  background-color: transparent;  
+  border: none;                   
+  cursor: pointer;               
+  padding: 10px;                 
+}
+
+.back-arrow {
+  width: 30px;   
+  height: auto; 
+}
+
+.pictureNumber {
+  background-color: transparent;
+  margin: auto;
+  border: none;                   
+  cursor: pointer;
+  border: 2px solid var(--main-yellow);
+
+}

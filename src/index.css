@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --main-yellow: #FFD82D;
+  --main-black: black;
+  --main-white: white;
+  --main-grey: #BCBCBC;
+  --yellow-hover: #FEEFAC;
+  font-family: 'Dosis', sans-serif;
+  color: var(--main-white);
+  background-image: url('/src/assets/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+*, *::before, *::after {
+  font-family: inherit;
+  box-sizing: border-box; /* Ajoute pour éviter les débordements inattendus */
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Dosis', sans-serif;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+

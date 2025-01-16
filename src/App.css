@@ -1,0 +1,8 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px; /* Ajoute de l'espace intérieur */
+  box-sizing: border-box; /* Inclut le padding dans la largeur */
+  border: 1px solid green;
+}
+

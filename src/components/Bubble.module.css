@@ -1,0 +1,33 @@
+.container {
+    padding: 20px; /* Ajoute de l'espace autour du contenu */
+    width: 100%;   /* Assure que le conteneur occupe toute la largeur */
+    box-sizing: border-box; /* Inclut le padding dans les dimensions */
+  }
+  
+.mainBubble {
+    height: 100%;
+    max-width: 100%;
+    background-color: #f5f5f5;
+    color: var(--main-black);
+    border-radius: 16px;
+    border-bottom-right-radius: 0px;
+    font-size: 1.3em;
+    padding: 10px 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+
+  
+
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px; /* Réduit le padding pour les écrans petits */
+    }
+  
+    .mainBubble {
+      font-size: 1em; /* Réduit la taille du texte pour les petits écrans */
+      padding: 10px;  /* Ajuste le padding interne */
+    }
+  }
+  

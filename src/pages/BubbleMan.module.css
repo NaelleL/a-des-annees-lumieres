@@ -1,0 +1,33 @@
+.bubbleMan{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.buttonContainer{
+    margin-top: 20px;
+}
+
+.contentContainer{
+    padding-top: 100px;
+  }
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.progressBar {
+    width: 100%; 
+    height: auto;
+    display: block; 
+    margin-top: 20px;
+  }
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+
