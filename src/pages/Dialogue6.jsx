@@ -4,6 +4,7 @@ import Bubble from '../components/Bubble';
 import Header from '../components/Header';
 import styles from './BubbleMan.module.css';
 import MainButton from '../components/Button/MainButton';
+import SecondaryButton from '../components/Button/SecondaryButton';
 
 const Dialogue6 = () => {
     const navigate = useNavigate();
@@ -27,10 +28,9 @@ const Dialogue6 = () => {
                 className="planImage" 
             />
             <div className={styles.buttonContainer}>
-                <MainButton btn="J'ai compris" onClick={() => navigate('/dialogue7')} />
+                <SecondaryButton btn="J'ai compris" onClick={() => navigate('/dialogue7')} />
             </div>
         </div>
-      
     </div>
   )
 }

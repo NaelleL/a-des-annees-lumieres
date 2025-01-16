@@ -16,6 +16,9 @@ import Arme1 from './pages/Arme1';
 import Arme2 from './pages/Arme2';
 import Arme3A from './pages/Arme3A';
 import Arme3B from './pages/Arme3B';
+import DialogueArme3A from './pages/DialogueArme3A';
+import DialogueArme3B from './pages/DialogueArme3B';
+import DialogueArmeInexistante from './pages/DialogueArmeInexistante';
 
 function App() {
   return (
@@ -33,6 +36,9 @@ function App() {
       <Route path="/arme2" element={<Arme2 />} />
       <Route path="/arme3A" element={<Arme3A />} />
       <Route path="/arme3B" element={<Arme3B />} />
+      <Route path="/dialogueArme3A" element={<DialogueArme3A />} />
+      <Route path="/dialogueArme3B" element={<DialogueArme3B />} />
+      <Route path="/dialogueArmeInexistante" element={<DialogueArmeInexistante />} />
     </Routes>
   );
 }

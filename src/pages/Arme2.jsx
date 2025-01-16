@@ -35,11 +35,11 @@ const Arme2 = () => {
             <PictureNumber 
             onClick={() => navigate('/arme3A')} 
             imageSrc="/assets/image1Arme.webp" 
-            altText="Carte"/>
+            altText="Image de l'arme A"/>
             <PictureNumber 
             onClick={() => navigate('/arme3B')} 
-            imageSrc="/assets/image1Arme.png" 
-            altText="Carte"/>
+            imageSrc="/assets/image2Arme.png" 
+            altText="Image de l'arme B"/>
         </div>
       
     </div>
