@@ -10,7 +10,7 @@ const Accueil = () => {
     <div>
       <div className={styles.clockContainer}>
         <img 
-              src="/src/assets/clock.svg" 
+              src="/assets/clock.svg" 
               alt="Chronomètre"  
               className="clock" 
             />

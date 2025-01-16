@@ -13,16 +13,16 @@ const Dialogue6 = () => {
       <div className={styles.contentContainer}>
         <div className={styles.bubbleMan}>
             <div>
-            <Bubble text={`Quand vous cliquez sur <img src="/src/assets/man.svg" alt="Logo" class="logo" /> pour faire ça`} />
+            <Bubble text={`Quand vous cliquez sur <img src="/assets/man.svg" alt="Logo" class="logo" /> pour faire ça`} />
             </div>
             <img 
-                src="/src/assets/man.svg" 
+                src="/assets/man.svg" 
                 alt="Homme" 
                 className="man" 
             />
             </div>
             <img 
-                src="/src/assets/planImage.svg" 
+                src="/assets/planImage.svg" 
                 alt="Plan du musée" 
                 className="planImage" 
             />

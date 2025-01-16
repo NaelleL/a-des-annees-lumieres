@@ -17,7 +17,7 @@ const Dialogue1 = () => {
           <Bubble text="Votre dossier d’enquête vient d’être réouvert !"/>
         </div>
           <img 
-            src="/src/assets/man.svg" 
+            src="/assets/man.svg" 
             alt="Homme" 
             className="man" 
           />

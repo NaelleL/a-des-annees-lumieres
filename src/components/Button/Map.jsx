@@ -12,7 +12,7 @@ const Map = () => {
     <div>
       <button onClick={handleBackClick} className={styles.backButton}>
         <img 
-          src="/src/assets/map.svg" 
+          src="/assets/map.svg" 
           alt="Carte" 
           className="map" 
         />

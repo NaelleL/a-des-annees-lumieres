@@ -13,7 +13,7 @@ const Back = () => {
     <div>
       <button onClick={handleBackClick} className={styles.backButton}>
         <img 
-          src="/src/assets/retour.svg" 
+          src="/assets/retour.svg" 
           alt="Retour" 
           className="back-arrow" 
         />

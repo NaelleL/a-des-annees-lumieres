@@ -18,7 +18,7 @@ const Dialogue4 = () => {
           <Bubble text="Et soyez un fantôme libre !"/>
         </div>
           <img 
-            src="/src/assets/man.svg" 
+            src="/assets/man.svg" 
             alt="Homme" 
             className="man" 
           />

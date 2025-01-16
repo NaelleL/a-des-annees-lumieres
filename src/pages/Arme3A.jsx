@@ -15,7 +15,7 @@ const Arme3A = () => {
       <Header />
         <p>Hop hop hop n'oubliez pas de rentrer le code qui se trouve sous le tableau</p>
         <img 
-            src="/src/assets/image1Arme.webp" 
+            src="/assets/image1Arme.webp" 
             alt="Carte" 
             className="carte" 
           />

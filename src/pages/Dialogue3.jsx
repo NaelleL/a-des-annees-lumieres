@@ -19,7 +19,7 @@ const Dialogue3 = () => {
           <Bubble text="Vous avez le choix ..."/>
         </div>
           <img 
-            src="/src/assets/man.svg" 
+            src="/assets/man.svg" 
             alt="Homme" 
             className="man" 
           />

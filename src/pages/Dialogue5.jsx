@@ -20,7 +20,7 @@ const Dialogue5 = () => {
           <Bubble text="C’est dommage... Votre meurtre ne sera donc jamais résolu."/>
         </div>
           <img 
-            src="/src/assets/man.svg" 
+            src="/assets/man.svg" 
             alt="Homme" 
             className="man" 
           />

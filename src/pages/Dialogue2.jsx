@@ -17,7 +17,7 @@ const Dialogue2 = () => {
           <Bubble text="Il y a deux siècles, vous avez été retrouvé(e) mort(e) dans des circonstances étranges !"/>
         </div>
           <img 
-            src="/src/assets/man.svg" 
+            src="/assets/man.svg" 
             alt="Homme" 
             className="man" 
           />

@@ -14,7 +14,7 @@ const Arme1 = () => {
     <div>
       <Header />
       <img 
-          src="/src/assets/progressBar1.svg" 
+          src="/assets/progressBar1.svg" 
           alt="Barre de progression" 
           className={styles.progressBar} 
         />
@@ -25,7 +25,7 @@ const Arme1 = () => {
           <Bubble text="L’avez-vous lu ?"/>
         </div>
           <img 
-            src="/src/assets/man.svg" 
+            src="/assets/man.svg" 
             alt="Homme" 
             className="man" 
           />

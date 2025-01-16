@@ -18,13 +18,13 @@ const Dialogue7 = () => {
           <Bubble text="Tout au long de votre enquête, il y aura des marquages et des codes près des tableaux."/>
         </div>
           <img 
-            src="/src/assets/man.svg" 
+            src="/assets/man.svg" 
             alt="Homme" 
             className="man" 
           />
         </div>
         <img 
-            src="/src/assets/imageMusee.svg" 
+            src="/assets/imageMusee.svg" 
             alt="Image du musée" 
             className="imgMusee" 
           />
