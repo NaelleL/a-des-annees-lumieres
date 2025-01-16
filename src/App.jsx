@@ -27,6 +27,14 @@ import DialogueComplice3A from './pages/DialogueComplice3A';
 import DialogueComplice3B from './pages/DialogueComplice3B';
 import DialogueCompliceInexistante from './pages/DialogueCompliceInexistante';
 import Tueur1 from './pages/Tueur1';
+import Tueur2 from './pages/Tueur2';
+import Tueur3A from './pages/Tueur3A';
+import Tueur3B from './pages/Tueur3B';
+import Tueur3C from './pages/Tueur3C';
+import DialogueTueur3A from './pages/DialogueTueur3A';
+import DialogueTueur3B from './pages/DialogueTueur3B';
+import DialogueTueur3C from './pages/DialogueTueur3C';
+import DialogueTueurInexistant from './pages/DialogueTueurInexistant';
 
 function App() {
   return (
@@ -55,6 +63,14 @@ function App() {
       <Route path="/dialogueComplice3B" element={<DialogueComplice3B />} />
       <Route path="/dialogueCompliceInexistante" element={<DialogueCompliceInexistante />} />
       <Route path="/tueur1" element={<Tueur1 />} />
+      <Route path="/tueur2" element={<Tueur2 />} />
+      <Route path="/tueur3A" element={<Tueur3A />} />
+      <Route path="/tueur3B" element={<Tueur3B />} />
+      <Route path="/tueur3C" element={<Tueur3C />} />
+      <Route path="/dialogueTueur3A" element={<DialogueTueur3A />} />
+      <Route path="/dialogueTueur3B" element={<DialogueTueur3B />} />
+      <Route path="/dialogueTueur3C" element={<DialogueTueur3C />} />
+      <Route path="/dialogueTueurInexistant" element={<DialogueTueurInexistant />} />
     </Routes>
   );
 }

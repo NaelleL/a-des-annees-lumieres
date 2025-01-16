@@ -47,7 +47,7 @@ const Tueur1 = () => {
             />
 
         </div>
-        <MainButton btn="Je les ai vus" onClick={() => navigate('/dialogueComplice3A')} />
+        <MainButton btn="Je les ai vus" onClick={() => navigate('/tueur2')} />
       
     </div>
   )
