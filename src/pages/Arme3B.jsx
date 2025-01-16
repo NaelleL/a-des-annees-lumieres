@@ -16,6 +16,7 @@ const Arme3B = () => {
         <div>
           <Bubble text="Remontez dans votre passé pour trouver l’arme, le tueur et son complice !"/>
           <Bubble text="Et soyez un fantôme libre !"/>
+          <Bubble text="Et soyez un fantôme libre !"/>
         </div>
           <img 
             src="/src/assets/man.svg" 
