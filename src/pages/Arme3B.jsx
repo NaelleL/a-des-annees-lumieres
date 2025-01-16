@@ -37,6 +37,11 @@ const Arme3B = () => {
   return (
     <div>
       <Header />
+      <img 
+                src="/assets/progressBar1.svg" 
+                alt="Barre de progression" 
+                className={styles.progressBar} 
+              />
         <p>Hop hop hop n'oubliez pas de rentrer le code qui se trouve sous le tableau</p>
         <img 
             src="/assets/image2Arme.png" 

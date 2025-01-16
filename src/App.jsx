@@ -19,6 +19,14 @@ import Arme3B from './pages/Arme3B';
 import DialogueArme3A from './pages/DialogueArme3A';
 import DialogueArme3B from './pages/DialogueArme3B';
 import DialogueArmeInexistante from './pages/DialogueArmeInexistante';
+import Complice1 from './pages/Complice1';
+import Complice2 from './pages/Complice2';
+import Complice3A from './pages/Complice3A';
+import Complice3B from './pages/Complice3B';
+import DialogueComplice3A from './pages/DialogueComplice3A';
+import DialogueComplice3B from './pages/DialogueComplice3B';
+import DialogueCompliceInexistante from './pages/DialogueCompliceInexistante';
+import Tueur1 from './pages/Tueur1';
 
 function App() {
   return (
@@ -39,6 +47,14 @@ function App() {
       <Route path="/dialogueArme3A" element={<DialogueArme3A />} />
       <Route path="/dialogueArme3B" element={<DialogueArme3B />} />
       <Route path="/dialogueArmeInexistante" element={<DialogueArmeInexistante />} />
+      <Route path="/complice1" element={<Complice1 />} />
+      <Route path="/complice2" element={<Complice2 />} />
+      <Route path="/complice3A" element={<Complice3A />} />
+      <Route path="/complice3B" element={<Complice3B />} />
+      <Route path="/dialogueComplice3A" element={<DialogueComplice3A />} />
+      <Route path="/dialogueComplice3B" element={<DialogueComplice3B />} />
+      <Route path="/dialogueCompliceInexistante" element={<DialogueCompliceInexistante />} />
+      <Route path="/tueur1" element={<Tueur1 />} />
     </Routes>
   );
 }

@@ -8,21 +8,22 @@ import MainButton from '../components/Button/MainButton';
 
 
 
-const DialogueArme3A = () => {
+const DialogueComplice3B = () => {
     const navigate = useNavigate();
   return (
     <div>
-      <img 
-        src="/assets/progressBar1.svg" 
-        alt="Barre de progression" 
-        className={styles.progressBar} 
-      />
-      <h3>Trouvez l’arme</h3>
       <Header />
+      <img 
+                src="/assets/progressBar2.svg" 
+                alt="Barre de progression" 
+                className={styles.progressBar} 
+              />
+      <h3>Trouvez le complice</h3>
       <div className={styles.bubbleMan}>
         <div>
-          <Bubble text="Oui bravo, l’arme du crime a été volée à Phèdre. Elle avait la tête ailleurs avec toutes ces tragédies."/>
-          <Bubble text="Il faut maintenant trouver le complice !"/>
+          <Bubble text="Ce n’est pas ça.
+            Laissez ces acteurs tranquilles !"/>
+          <Bubble text="Chut ! Ça commence !"/>
         </div>
           <img 
             src="/assets/man.svg" 
@@ -30,9 +31,10 @@ const DialogueArme3A = () => {
             className="man" 
           />
         </div>
-        <MainButton btn="D'accord !" onClick={() => navigate('/complice1')} />
+        <MainButton btn="Je recommence" onClick={() => navigate('/complice2')} />
+      
     </div>
   )
 }
 
-export default DialogueArme3A
+export default DialogueComplice3B

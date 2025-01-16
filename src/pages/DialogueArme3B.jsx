@@ -12,6 +12,12 @@ const DialogueArme3B = () => {
     const navigate = useNavigate();
   return (
     <div>
+      <img 
+                src="/assets/progressBar1.svg" 
+                alt="Barre de progression" 
+                className={styles.progressBar} 
+              />
+      <h3>Trouvez l’arme</h3>
       <Header />
       <div className={styles.bubbleMan}>
         <div>
