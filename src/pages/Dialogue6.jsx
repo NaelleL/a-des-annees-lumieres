@@ -14,7 +14,7 @@ const Dialogue6 = () => {
       <div className={styles.contentContainer}>
         <div className={styles.bubbleMan}>
             <div>
-            <Bubble text={`Quand vous cliquez sur <img src="/assets/man.svg" alt="Logo" class="logo" /> pour faire ça`} />
+            <Bubble text={`Lorsque vous cliquez sur l'icône "carte", une fenêtre s’ouvre et affiche le plan de notre salle.`} />
             </div>
             <img 
                 src="/assets/man.svg" 
@@ -27,9 +27,7 @@ const Dialogue6 = () => {
                 alt="Plan du musée" 
                 className="planImage" 
             />
-            <div className={styles.buttonContainer}>
                 <SecondaryButton btn="J'ai compris" onClick={() => navigate('/dialogue7')} />
-            </div>
         </div>
     </div>
   )
