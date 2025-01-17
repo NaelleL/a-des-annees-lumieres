@@ -12,10 +12,22 @@
     padding-top: 100px;
   }
 
-.cardContainer{
+.cardContainerTwo{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+
+.firstCardContainer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.secondCardContainer{
+    display: flex;
+    justify-content: center;
+    
 }
 
 .progressBar {
@@ -30,4 +42,25 @@ input {
     font-size: 16px;
 }
 
+.contentPopUpContainer{
+    background-color: black;
+    border-radius: 16px;
+}
 
+
+.contentContainerClose{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.backContainer{
+    display: flex;
+    margin-top: 30vh;
+}
+
+.textContainer {
+    text-align: left;
+    margin: 0 auto; 
+    padding: 20px; 
+    max-width: 800px; 
+  }

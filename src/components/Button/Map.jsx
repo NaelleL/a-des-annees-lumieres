@@ -4,21 +4,22 @@ import styles from './Button.module.css';
 
 const Map = () => {
     const navigate = useNavigate();
-    const handleBackClick = () => {
-        navigate(-1); // Cela revient à la page précédente dans l'historique
-  };
-    
-  return (
-    <div>
-      <button onClick={handleBackClick} className={styles.backButton}>
-        <img 
-          src="/assets/map.svg" 
-          alt="Carte" 
-          className="map" 
-        />
-      </button>
-    </div>
-  ) 
-}
 
-export default Map
+    const handleNavigate = () => {
+        navigate('/popUpMap'); // Navigue vers la route "/popUpMap"
+    };
+    
+    return (
+        <div>
+            <button onClick={handleNavigate} className={styles.backButton}> 
+                <img 
+                    src="/assets/map.svg" 
+                    alt="Carte" 
+                    className="map" 
+                />
+            </button>
+        </div>
+    ); 
+};
+
+export default Map;

@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom'
 
 import { Routes, Route } from 'react-router-dom';
 import Accueil from './pages/Accueil';
+import NotFound from './pages/NotFound';
 import Credits from './pages/Credits';
 import Dialogue1 from './pages/Dialogue1';
 import Dialogue2 from './pages/Dialogue2';
@@ -39,13 +40,16 @@ import Fin1 from './pages/Fin1';
 import Fin2 from './pages/Fin2';
 import Fin3 from './pages/Fin3';
 import ChoixFinal from './pages/ChoixFinal';
-import Diplome from './pages/Diplome';
+import DiplomeA from './pages/DiplomeA';
+import DiplomeB from './pages/DiplomeB';
+import PopUpMap from './pages/PopUpMap';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Accueil />} />
       <Route path="/credits" element={<Credits />} />
+      <Route path="/popUpMap" element={<PopUpMap />} />
       <Route path="/dialogue1" element={<Dialogue1 />} />
       <Route path="/dialogue2" element={<Dialogue2 />} />
       <Route path="/dialogue3" element={<Dialogue3 />} />
@@ -80,7 +84,9 @@ function App() {
       <Route path="/fin2" element={<Fin2 />} />
       <Route path="/fin3" element={<Fin3 />} />
       <Route path="/choixFinal" element={<ChoixFinal />} />
-      <Route path="/diplome" element={<Diplome />} />
+      <Route path="/diplomeA" element={<DiplomeA />} />
+      <Route path="/diplomeB" element={<DiplomeB />} />
+      <Route path="*" element={<NotFound />} />
 
 
     </Routes>

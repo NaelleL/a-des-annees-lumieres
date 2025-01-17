@@ -19,32 +19,26 @@ const Fin3 = () => {
           className={styles.progressBar} 
         />
       <h3>Bravo ! Aucune fausses accusations !</h3>
-      <div className={styles.bubbleMan}>
-        <div>
-          <Bubble text="Voici nos trois suspects. Allez devant leurs tableaux."/>
-        </div>
-          <img 
-            src="/assets/man.svg" 
-            alt="Homme" 
-            className="man" 
-          />
-        </div>
-        <div>
+        <div className={styles.cardContainer}>
+          <div className={styles.firstCardContainer}>
             <img 
-                src="/assets/tueur1.png" 
-                alt="Suspect 1" 
+                src="/assets/reponseA.webp" 
+                alt="Arme" 
                 className={styles.suspect1} 
             />
             <img 
-                src="/assets/tueur2.png" 
-                alt="Suspect 2" 
-                className={styles.suspect2} 
+                src="/assets/reponse-B.webp" 
+                alt="Meurtrier" 
+                className={styles.suspect1} 
             />
+          </div>
+          <div className={styles.secondCardContainer}>
             <img 
-                src="/assets/tueur3.png" 
-                alt="Suspect 3" 
-                className={styles.suspect3} 
+                src="/assets/reponse-C.webp" 
+                alt="Complice" 
+                className={styles.suspect1} 
             />
+          </div>
 
         </div>
         <MainButton btn="Je finis l'enquête" onClick={() => navigate('/choixFinal')} />

@@ -29,7 +29,8 @@ const Tueur1 = () => {
             className="man" 
           />
         </div>
-        <div>
+        <div className={styles.cardContainer}>
+          <div className={styles.firstCardContainer}>
             <img 
                 src="/assets/tueur1.png" 
                 alt="Suspect 1" 
@@ -40,11 +41,14 @@ const Tueur1 = () => {
                 alt="Suspect 2" 
                 className={styles.suspect2} 
             />
+          </div>
+          <div className={styles.secondCardContainer}>
             <img 
                 src="/assets/tueur3.png" 
                 alt="Suspect 3" 
                 className={styles.suspect3} 
             />
+          </div>
 
         </div>
         <MainButton btn="Je les ai vus" onClick={() => navigate('/tueur2')} />

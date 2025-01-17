@@ -21,8 +21,8 @@ const choixFinal = () => {
       <h1>Choix final</h1>
       <h3>C’est l’heure.</h3>
       <p>Qu’allez-vous faire du meurtrier ?</p>
-        <MainButton btn="Je me venge" onClick={() => navigate('/diplome')} />
-        <MainButton btn="Je l'amène en justice" onClick={() => navigate('/diplome')} />
+        <MainButton btn="Je me venge" onClick={() => navigate('/diplomeA')} />
+        <MainButton btn="Je l'amène en justice" onClick={() => navigate('/diplomeB')} />
       
     </div>
   )

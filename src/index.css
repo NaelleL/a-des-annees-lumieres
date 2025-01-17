@@ -9,15 +9,16 @@
   --yellow-hover: #FEEFAC;
   font-family: 'Dosis', sans-serif;
   color: var(--main-white);
-  background-image: url('/assets/background.png');
+  background-image: url('/assets/background.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 *, *::before, *::after {
   font-family: inherit;
-  box-sizing: border-box; /* Ajoute pour éviter les débordements inattendus */
+  box-sizing: border-box;
 }
 
 html, body {

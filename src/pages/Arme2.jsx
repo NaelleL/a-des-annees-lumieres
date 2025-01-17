@@ -31,7 +31,7 @@ const Arme2 = () => {
             className="man" 
           />
         </div>
-        <div className={styles.cardContainer}>
+        <div className={styles.cardContainerTwo}>
             <PictureNumber 
             onClick={() => navigate('/arme3A')} 
             imageSrc="/assets/image1Arme.webp" 

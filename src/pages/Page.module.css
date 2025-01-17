@@ -1,5 +1,10 @@
 .clockContainer {
     display: flex;
-    border: 2px solid var(--main-yellow);
     justify-content: flex-end;
   }
+
+
+.stickers{
+  position: relative;
+  top:-60px; left: 130px;
+}

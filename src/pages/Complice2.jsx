@@ -31,7 +31,7 @@ const Complice2 = () => {
             className="man" 
           />
         </div>
-        <div className={styles.cardContainer}>
+        <div className={styles.cardContainerTwo}>
             <PictureNumber 
             onClick={() => navigate('/complice3A')} 
             imageSrc="/assets/image1Complice.png" 

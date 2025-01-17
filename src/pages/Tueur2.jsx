@@ -32,18 +32,22 @@ const Tueur2 = () => {
           />
         </div>
         <div className={styles.cardContainer}>
-            <PictureNumber 
+            <div className={styles.firstCardContainer}>            
+                <PictureNumber 
             onClick={() => navigate('/tueur3A')} 
             imageSrc="/assets/alibiA.png" 
             altText="Image du suspect A"/>
-            <PictureNumber 
+                <PictureNumber 
             onClick={() => navigate('/tueur3B')} 
             imageSrc="/assets/alibiB.png" 
             altText="Image du suspect B"/>
-            <PictureNumber 
+            </div>
+            <div className={styles.secondCardContainer}>
+              <PictureNumber 
             onClick={() => navigate('/tueur3C')} 
             imageSrc="/assets/alibiC.png" 
             altText="Image du suspect C"/>
+            </div>
             
         </div>
       

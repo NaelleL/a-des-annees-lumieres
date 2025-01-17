@@ -25,7 +25,7 @@ const Dialogue5 = () => {
             className="man" 
           />
         </div>
-        <SecondaryButton btn="Non ! Je change d’avis !" onClick={() => navigate('/dialogue3')} />
+        <SecondaryButton btn="Non ! Je change d’avis !" onClick={() => navigate('/dialogue4')} />
       
     </div>
   )

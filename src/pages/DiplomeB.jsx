@@ -8,12 +8,13 @@ import MainButton from '../components/Button/MainButton';
 
 
 
-const Diplome = () => {
+const DiplomeB = () => {
     const navigate = useNavigate();
   return (
     <div>
       <Header />
       <h1>Affaire classée !</h1>
+      <h3>La vengeance est un plat qui se mange froid !</h3>
       <img 
           src="/assets/diplome.png" 
           alt="diplome" 
@@ -27,4 +28,4 @@ const Diplome = () => {
   )
 }
 
-export default Diplome
+export default DiplomeB
