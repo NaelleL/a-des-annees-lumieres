@@ -35,6 +35,11 @@ import DialogueTueur3A from './pages/DialogueTueur3A';
 import DialogueTueur3B from './pages/DialogueTueur3B';
 import DialogueTueur3C from './pages/DialogueTueur3C';
 import DialogueTueurInexistant from './pages/DialogueTueurInexistant';
+import Fin1 from './pages/Fin1';
+import Fin2 from './pages/Fin2';
+import Fin3 from './pages/Fin3';
+import ChoixFinal from './pages/ChoixFinal';
+import Diplome from './pages/Diplome';
 
 function App() {
   return (
@@ -71,6 +76,13 @@ function App() {
       <Route path="/dialogueTueur3B" element={<DialogueTueur3B />} />
       <Route path="/dialogueTueur3C" element={<DialogueTueur3C />} />
       <Route path="/dialogueTueurInexistant" element={<DialogueTueurInexistant />} />
+      <Route path="/fin1" element={<Fin1 />} />
+      <Route path="/fin2" element={<Fin2 />} />
+      <Route path="/fin3" element={<Fin3 />} />
+      <Route path="/choixFinal" element={<ChoixFinal />} />
+      <Route path="/diplome" element={<Diplome />} />
+
+
     </Routes>
   );
 }

@@ -8,21 +8,21 @@ import MainButton from '../components/Button/MainButton';
 
 
 
-const DialogueTueur3B = () => {
+const Fin1 = () => {
     const navigate = useNavigate();
   return (
     <div>
       <Header />
       <img 
-                src="/assets/progressBar3.svg" 
-                alt="Barre de progression" 
-                className={styles.progressBar} 
-              />
-      <h3>Trouvez le tueur</h3>
+          src="/assets/progressBar4.svg" 
+          alt="Barre de progression" 
+          className={styles.progressBar} 
+        />
+      <h3>La révélation</h3>
       <div className={styles.bubbleMan}>
         <div>
-          <Bubble text="Oui bravo, cette fois-ci, elle n’a pas joué un rôle !
-            C’est bien notre tueuse ! "/>
+          <Bubble text="Une simple mauvaise critique de votre part..."/>
+          <Bubble text="Et voilà que la comédienne principale de la troupe vous assassine !"/>
         </div>
           <img 
             src="/assets/man.svg" 
@@ -30,10 +30,10 @@ const DialogueTueur3B = () => {
             className="man" 
           />
         </div>
-        <MainButton btn="Je découvre la vérité" onClick={() => navigate('/fin1')} />
+        <SecondaryButton btn="Suite" onClick={() => navigate('/fin2')} />
       
     </div>
   )
 }
 
-export default DialogueTueur3B
+export default Fin1
