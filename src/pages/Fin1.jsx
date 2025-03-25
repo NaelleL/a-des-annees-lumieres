@@ -21,12 +21,12 @@ const Fin1 = () => {
       <h3>La révélation</h3>
       <div className={styles.bubbleMan}>
         <div>
-          <Bubble text="Une simple mauvaise critique de votre part..."/>
-          <Bubble text="Et voilà que la comédienne principale de la troupe vous assassine !"/>
+          <Bubble text="J’avoue tout ! C’est moi qui vous ai assassiné !"/>
+          <Bubble text="En même temps, votre mauvaise critique allait ruiner ma carrière de comédienne."/>
         </div>
           <img 
-            src="/assets/man.svg" 
-            alt="Homme" 
+            src="/assets/contesse.svg" 
+            alt="Contesse" 
             className="man" 
           />
         </div>
