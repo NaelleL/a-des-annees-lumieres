@@ -13,8 +13,17 @@ const Credits = () => {
       <div className={styles.textContainer}>
         <p>Projet créé dans le cadre de la Bacchanight 2025 du Musée des Beaux-Arts de Bordeaux.</p>
         <p>Créateurs: <br />
-        Camille Surget - Maziere Tya - Gwenaëlle Yau Chun Wan - Naëlle Lemennicier - Phuc Nguyen</p>
-        <p>Œuvres utilisées : </p>
+        Camille Surget - Maziere Tya - Gwenaëlle Yau Chun Wan - Naëlle Lemennicier - Phuc 
+        Nguyen</p>
+        <p>Intégration et développement: <br/>
+        Naëlle Lemennicier</p>
+        <p>Scénario: <br />
+        Camille Surget - Maziere Tya</p>
+        <p>Trailer: <br />
+        Gwenaëlle Yau Chun Wan - Phuc
+        Nguyen</p>
+
+        <p>Œuvres utilisées: </p>
         <ul>
           <li>Oudry Jean-Baptiste, comédien italien dans un parc, 1710</li>
           <li>Pierre Narcisse Guerin, Phèdre et Hippolyte, 1815 </li>

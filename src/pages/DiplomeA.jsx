@@ -20,7 +20,7 @@ const DiplomeA = () => {
           alt="diplome" 
           className={styles.diplome} 
         />
-      <p>Récupérez votre attestation auprès de l’écrivaine.</p>
+      <p>Venez récupérer votre attestation!</p>
         <MainButton btn="Je recommence le jeu" onClick={() => navigate('/')} />
         <SecondaryButton btn="Crédits" onClick={() => navigate('/credits')} />
       
